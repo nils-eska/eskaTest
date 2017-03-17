@@ -6,4 +6,9 @@
 			<xs:documentation>Comment describing your root element</xs:documentation>
 		</xs:annotation>
 	</xs:element>
+	<xs:element name="Test2" type="Test">
+		<xs:annotation>
+			<xs:documentation>Comment describing your root element</xs:documentation>
+		</xs:annotation>
+	</xs:element>	
 </xs:schema>
