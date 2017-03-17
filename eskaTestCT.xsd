@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation="eskaTestDT.xsd"/>
+	<xs:complexType name="Test">
+		<xs:annotation>
+			<xs:documentation>
+					Test
+			</xs:documentation>
+		</xs:annotation>
+		<xs:sequence>
+			<xs:element name="Test1" type="string20" minOccurs="1" maxOccurs="1"/>
+			<xs:element name="Test2" type="string20" minOccurs="0" maxOccurs="1"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>
